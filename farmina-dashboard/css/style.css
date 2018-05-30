@@ -1,0 +1,14 @@
+
+html {
+    position: absolute;
+    min-width: 1024px;
+    min-height: 500px;
+    height: 100%;
+  background-image:linear-gradient(#eaa,#aee);
+}
+#home{
+  background-image:linear-gradient(#eaa,#aee);
+  height:1000;
+  
+}
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Farmina Dashboard</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<head>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="//d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.0.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Farmina</h2>
+  
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Dashboard</a></li>
+    <li><a data-toggle="tab" href="#menu1">Learn</a></li>
+    <li><a data-toggle="tab" href="#menu2">Report</a></li>
+    <li><a data-toggle="tab" href="#menu3">Settings</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+     
+<body onload="handleLoadEvent()">
+    <svg width="960" height="620">
+      
+      
+  </svg>
+
+   
+     <script src="https://cdn.firebase.com/js/client/2.0.2/firebase.js"></script>
+ 
+<div id="canvasDiv">
+  
+     <canvas id="myCanvas" height=1080 width=1920>
+       </div>
+       
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Settings</h3>
+      <br>
+      
+        <font size="5">Plant Profile: </font>
+  <select>
+  <option value="volvo">Basil</option>
+  <option value="saab">Cilantro</option>
+  <option value="mercedes">Strawberries</option>
+  <option value="audi">Peppers</option>
+</select>
+      <br>
+      <br>
+      <label class="switch">
+        <font size="4">LED on: </font>
+  <input type="checkbox" id="LED" onclick="LEDControl()" position="absolute">
+  <span class="slider round"></span>
+  </label>
+      <br><br>
+      <font size="4">Pump1 on:</font>
+    <label class="switch">
+  <input type="checkbox" id="pump1" onclick="pumpControl()">
+  <span class="slider round"></span>
+</label>
+      <br><br>
+      <font size="4">Pump 2 on:</font>
+    <label class="switch">
+  <input type="checkbox" id="pump2" onclick="pump2Control()">
+  <span class="slider round"></span>
+</label>
+      <br><br>
+      <font size="4">Pump3 on:</font>
+    <label class="switch">
+  <input type="checkbox" id="pump3" onclick="pump3Control()">
+  <span class="slider round"></span>
+</label>
+      <br><br>
+      <font size="4">Fan on:</font>
+    <label class="switch">
+  <input type="checkbox" id="pump1" onclick="fanControl()">
+  <span class="slider round"></span>
+</label>
+    </div>
+  </div>
+</div>
+       </body>
+  <script src='https://www.gstatic.com/firebasejs/3.6.1/firebase.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
